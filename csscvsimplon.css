@@ -1,0 +1,103 @@
+
+html {
+	
+	font-family: 'Leckerli One', 'Century Gothic';
+	font-size: 0.8em;
+	background-color:#7e8c9a;
+}
+
+.conteneur {
+	display:flex;
+	justify-content: space-around;
+	max-width: 1000px;
+	margin:auto;
+	padding:5px;
+	margin-top:15px;
+	color:#465059;
+
+}
+
+header {
+	background: url("images/sand.jpg");
+	color:#465059;
+	width:100%;
+	max-width: 1000px;
+	border-radius: 20px;
+	margin:auto;
+}	
+
+.rond2 {
+	 width:100px;
+	 height:100px;
+	 border-radius:50%;
+	 background: url('images/mouette2.png') #7e8c9a no-repeat center;
+	 margin:10px 30px;
+	display:inline-block;
+	vertical-align: top;
+}
+
+.header_titre {
+	display:inline-block;
+	margin:auto;
+	width:70%;
+	vertical-align: top;
+}
+
+header h1, h2, p {
+	text-align:center;
+}
+
+section {
+	margin:auto;
+	vertical-align: top;
+	flex:0 0 20%;
+	border: 2px solid #465059;
+	margin-top:15px;
+	margin-bottom:15px;
+	border-radius: 10px;
+	padding:5px;
+}
+
+h1, h2 {
+	text-align:center;
+}
+
+main {
+	background: url('images/stone.jpg') repeat-y;
+	width:100%;
+	max-width: 1000px;
+	margin:auto;
+	border-radius: 20px;
+}
+
+.exp-mkt, .exp-ccial, .exp-formation1, .exp-formation2 {
+	text-align:justify;
+}
+
+
+.rond {
+	 width:200px;
+	 height:200px;
+	 border-radius:50%;
+	 background:#7e8c9a;
+	 margin:10px auto;
+	 text-align:center;
+	 line-height: 90px; 
+	 color:white;
+ }
+
+ footer {
+ 	background : url('images/sand.jpg');
+ 	max-width:960px;
+ 	border-radius: 20px;
+ }
+
+ ul {
+ 	padding-left:20px;
+ 	list-style-type:none;
+ 	list-style-position:outside;
+ }
+
+ li:before {
+ 	content:"- ";
+ }

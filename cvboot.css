@@ -1,0 +1,43 @@
+
+
+html {
+	
+	font-family: 'Leckerli One', 'Century Gothic';
+	font-size: 0.8em;
+	background-color:#7e8c9a;
+}
+
+body {
+	background-color:#7e8c9a;
+}
+
+header {
+	background: url("images/sand.jpg") repeat;
+}
+
+header img {
+	margin:0 auto;
+}
+
+main {
+	background:url('images/stone.jpg');
+}
+
+footer {
+	background : url('images/sand.jpg');
+}
+
+.container {
+	text-align:justify;
+	margin-top: 10px;
+	margin-bottom:10px;
+	vertical-align: middle;
+}
+
+.langues, .loisirs {
+	text-align:center;
+}
+
+h1, h2, p {
+	text-align:center;
+}
